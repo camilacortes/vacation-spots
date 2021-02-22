@@ -1,12 +1,16 @@
 body {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  background: #e4eee5;
 }
 .box {
-  border: solid black;
+  background: white;
   margin: 20px;
   padding: 20px;
   width: 455px;
+  -webkit-box-shadow: 17px 22px 19px 3px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 17px 22px 19px 3px rgba(0, 0, 0, 0.62);
+  box-shadow: 17px 22px 19px 3px rgba(0, 0, 0, 0.62);
 }
 
 .header {

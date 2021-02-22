@@ -1,7 +1,4 @@
 import React from 'react'
-const box = document.getElementsByClassName('box');
-
-
 
 function VacationComponent(props){
    return(
