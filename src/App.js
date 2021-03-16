@@ -6,7 +6,7 @@ import vacationSpots from './vacationSpots';
 
 function App(){
   const spotsComponent = vacationSpots.map(item => {
-    return <VacationComponent key ={item.place} spot={item}/>
+    return <VacationComponent key ={item.place} time={item.timeToGo} place={item.place} price={item.price} color={item.color} />
   })
 
   
